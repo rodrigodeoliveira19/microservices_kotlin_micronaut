@@ -31,6 +31,9 @@ dependencies {
     //redis
     implementation("redis.clients:jedis:3.6.3")
 
+    //Kafka
+    implementation("io.micronaut.kafka:micronaut-kafka")
+
 }
 
 
