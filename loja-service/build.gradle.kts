@@ -28,6 +28,9 @@ dependencies {
 
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
 
+    //redis
+    implementation("redis.clients:jedis:3.6.3")
+
 }
 
 
